@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 from datetime import datetime
 
-API_URL = "http://localhost:8000"
+API_URL = "https://text-tosql-production.up.railway.app"
 
 # session state init
 if "query_history" not in st.session_state:
