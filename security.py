@@ -18,7 +18,7 @@ def is_dangerous(sql):
             if table.name.lower() not in allowed_tables:
                 return True
 
-        # detect tautologies like 1=1
+        # detect tautologies like 1=1 for sql injection
         for condition in parsed.find_all(exp.EQ):
 
             left = condition.left
