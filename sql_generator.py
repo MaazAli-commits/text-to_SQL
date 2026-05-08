@@ -30,6 +30,7 @@ Rules:
 - If the question is somewhat ambiguous but still database-related, make the most reasonable assumption and generate SQL.
 
 - No explanations, no markdown, just raw SQL
+- Do not invent logic
 
 - Only respond with NOT_DB_QUESTION if the question has absolutely nothing to do with the database
 
